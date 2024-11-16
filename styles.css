@@ -1,0 +1,79 @@
+* {    /*Este asterisco indica los estilos globales, es decir de todo el documento*/
+    margin: 0;  /*Todos los lementos tendran 0 de margin a menos que se indique lo contrario*/
+    padding: 0;  /*Todos los lementos tendran 0 de relleno a menos que se indique lo contrario*/
+    box-sizing: border-box;  /*Le indicas al navegador como se comprotan lso elementos*/
+    text-decoration: none; /* Quitamos las lineas de los vinculos*/
+  }
+  
+  body {
+    font-family: Arial, sans-serif; /*fuente*/
+    line-height: 1.6;  /*Espacio entre lineas, es decir, 1.6 veces la letra*/
+    color: #7a7171;  /*color de la letra*/
+    background-color: #f7f7f7;  /*color de fondo*/
+    text-align: center; /*Alineación del texto*/
+
+  }
+ body ul{  /*Este es el elemento "ul" dentro de body */
+    color: #eeeeee;  /*Color de letra */
+ }
+  /* Estilo para el header */
+  header {
+    font-size: 30px;
+    background-color: #4dca51; /* Establece el color de fondo del encabezado */
+    color: #fff; /* Define el color del texto dentro del encabezado */
+    padding: 30px; /* Añade un espacio interno alrededor del contenido del encabezado */
+    text-align: center; /* Centra el contenido del encabezado horizontalmente */
+    box-shadow: 0px 4px 6px #0000001a; /* Aplica una sombra sutil debajo del encabezado */
+}
+
+nav {
+    width: 90%; /* Hace que el nav ocupe el 100% del ancho disponible */
+    padding: 5px 0; /* Agrega un espacio vertical interno en el nav */
+}
+
+nav ul {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0; /* Elimina el espacio interno predeterminado del ul */
+    margin: 0; /* Elimina el margen externo predeterminado del ul */
+    display: flex; /* Cambia el modelo de caja de ul a flexbox para organizar los elementos en línea */
+    justify-content: space-around; /* Distribuye uniformemente los elementos dentro de ul */
+    align-items: center; /* Alinea los elementos en el centro verticalmente dentro de ul */
+    list-style-type: none; /* Quita los puntos de lista predeterminados de los elementos de ul */
+        }
+
+  header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  
+  main {
+    max-width: 1200px; /*Ancho maximo*/
+    margin: 20px auto; /*Margen de 20 pixeles*/
+    padding: 20px;     /*Relleno de 20 pixeles*/
+    background-color: #fff; /*Color de fondo*/
+    border-radius: 80px;      /*Que tan redondeados quieres los bordes*/
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /*Sombreado de la caja*/
+    
+  }
+  img {
+    width: 40%;  /* La imagen ocupará el 40% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+  }
+  main h2 {
+    font-size: 1.8em; /*Tamaño de la letra*/
+    margin-bottom: 10px; /*Margen inferior de 10 pixeles*/
+    color: #333;   /*Color de letra*/
+  }
+  
+  main p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #555;
+  }
+   
+    
+  
+  
